@@ -4,20 +4,52 @@
   justify-content: center;
   flex-direction: column;
 }
+button svg {
+  color: black;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  gap: 10px;
+  border-radius: 12px;
+}
+.add {
+  background-color: rgb(20, 178, 20);
+}
+.favorite {
+  background-color: yellow;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 20px;
+}
 @media (max-width: 960px) {
-  .detail-container {
+  button svg {
+    width: 40px;
+    height: 40px;
+  }
+  .btn-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
   }
 }
-
 body {
   font-family: sans-serif;
 }
+
 .stage {
-  width: 304px;
+  /* The frame or lens */
+  width: 250px;
   height: 400px;
   perspective: 1080px;
   margin: 5% 3%;
@@ -35,7 +67,7 @@ body {
 
 .book_front,
 .book_back {
-  width: 304px;
+  width: 250px;
   height: 400px;
   transform-style: preserve-3d;
   transform: rotateY(0deg) translateZ(14px);
@@ -75,14 +107,14 @@ body {
 }
 .book_front:after,
 .book_back:after {
-  transform: rotateY(90deg) translateZ(304px);
+  transform: rotateY(90deg) translateZ(250px);
 }
 
 .book_front_trim {
   /* Trim that IMG tag to cover side -graceful*/
   height: 100%;
   position: absolute;
-  width: 304px;
+  width: 250px;
   overflow: hidden;
 }
 
@@ -95,7 +127,7 @@ img {
 
 .book_back {
   transform: rotateY(180deg) translateZ(14px);
-  width: 304px;
+  width: 250px;
   height: 400px;
   z-index: -1;
   background-image: linear-gradient(
@@ -111,14 +143,14 @@ img {
   background-position: top left;
 }
 .book_back:before {
-  height: 304px;
+  height: 250px;
   z-index: -1;
   background: #eee;
   transform: rotateX(90deg) rotateZ(-90deg) translateZ(-400px);
   box-shadow: 0px 0px 25px 4px rgba(0, 0, 0, 0.55);
 }
 .book_back:after {
-  height: 304px;
+  height: 250px;
   z-index: -1;
   background: #eee;
   transform: rotateX(90deg) rotateZ(-90deg);
@@ -137,7 +169,7 @@ img {
     url(none), url(none);
   background-position: -200% 100%, right top, center top, left top;
   background-size: 200% 200%, auto 100%, auto 100%, auto 100%;
-  width: 304px;
+  width: 250px;
   height: 400px;
 }
 
