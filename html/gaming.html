@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/global.css" />
+    <link rel="stylesheet" href="../style/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <a href="/" class="logo-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z"
+            />
+          </svg>
+        </a>
+        <div class="pc-nav">
+          <ul>
+            <li class="pc-nav-item"><a href="/">Home</a></li>
+            <li class="pc-nav-item"><a href="/html/gaming.html">Gaming</a></li>
+            <li class="pc-nav-item"><a href="/html/manga.html">Manga</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <input type="checkbox" id="navi-toggle" class="checkbox" />
+        <label for="navi-toggle" class="button">
+          <span class="icon"></span>
+        </label>
+        <div class="background"></div>
+        <nav class="nav">
+          <ul class="list">
+            <li class="item"><a href="/" class="link"> Home </a></li>
+            <li class="item">
+              <a href="/html/gaming.html" class="link"> Gaming </a>
+            </li>
+            <li class="item">
+              <a href="/html/manga.html" class="link"> Manga </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main
+      style="
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+      "
+    >
+      <h1>Moba Game</h1>
+      <div class="category-container">
+        <div class="book-container">
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/ETCPGInHiB1n_JV5ZgxSX957UCg03Z3KlfZ89A0nW2A/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjM3/OTAxMy5qcGc"
+                    alt="League of Legends"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>
+              Guide of <br />
+              League of Legends
+            </h2>
+          </div>
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/XpTHfRbnaUKy2Qo9HUV1l1DTibj-gpwmimViJNhsva8/rs:fit:900:900:1/g:ce/aHR0cHM6Ly95dDMu/Z2dwaHQuY29tL2Et/L0FBdUU3bUFFN3BY/eU1ual93U1MwUWti/M1VuSFZ2bGJHQzBj/ajEzelRNQT1zOTAw/LW1vLWMtYzB4ZmZm/ZmZmZmYtcmotay1u/bw"
+                    alt="Arena of Valor"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>
+              Guide of <br />
+              Arena of Valor
+            </h2>
+          </div>
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/_Q1wXAk8yUllom2dopAlwA-EdciuA4k2bcCVjwSHG4I/rs:fit:474:474:1/g:ce/aHR0cHM6Ly9pb3Mu/b210a2FwcC5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDMvcm9ibG94LnBu/Zw"
+                    alt="Roblox"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Roblox</h2>
+          </div>
+        </div>
+      </div>
+      <h1>Strategy Game</h1>
+      <div class="category-container">
+        <div class="book-container">
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/S1Z0YbQb4phGyUqw4WDC39b1B79-svAASdvMGtJ1cRQ/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L3VV/OVhZZXM2Q0FEZ1ZI/SkxBZERDYmMuanBn"
+                    alt="Auto Chess"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Auto Chess</h2>
+          </div>
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/aY3TZplX0i6qMEpRSF9uRySOQhREOOhAllA6_K4KorI/rs:fit:1200:720:1/g:ce/aHR0cDovL3d3dy5w/b3dlcnB5eC5jb20v/d3AtY29udGVudC91/cGxvYWRzL3Bva2Vt/b24tc3dvcmQtc2hp/ZWxkLXdhbGxwYXBl/ci5qcGc"
+                    alt="Pokemon Sword And Shield"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Pokemon Sword And Shield</h2>
+          </div>
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/WYFY7BXmm1zT8DKU5F1ai4-4VYE9N2XFHbc7L6ZM6vY/rs:fit:474:266:1/g:ce/aHR0cHM6Ly9wcm9n/YW1lZ3VpZGVzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/Mi8wMS9GZWF0dXJl/ZC1ZdS1HaS1PaC1N/YXN0ZXItRHVlbC1J/cy10aGVyZS1jcm9z/cy1wcm9ncmVzc2lv/bi1pbi1ZdS1HaS1P/aC1NYXN0ZXItRHVl/bC03Njh4NDMyLmpw/Zw"
+                    alt="Yugioh"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Yugioh</h2>
+          </div>
+        </div>
+      </div>
+      <h1>Offline Game</h1>
+      <div class="category-container">
+        <div class="book-container">
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/l4z5KPevyt16ksU5CZN3IDe96eXGu9yCxVXHCnyfNqw/rs:fit:720:1200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Z0Y2RuLm5l/dC9pbWFnZXMvdF9v/cHRpbWl6ZWQsZl9h/dXRvL3AvOTY1M2Qw/OTgtOWI1MS0xMWU2/LThmZDctMDAxNjNl/ZDgzM2U3LzU1Mjcw/MDUzNC9zdWJ3YXkt/c3VyZmVycy1zY3Jl/ZW5zaG90LnBuZw"
+                    alt="Subway Suffer"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Subway Suffer</h2>
+          </div>
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/48A9Lv85rPfEyCCZpXQmSJyDgy5GEP0Mo_2a5MwXxrU/rs:fit:1024:1024:1/g:ce/aHR0cHM6Ly9pczMt/c3NsLm16c3RhdGlj/LmNvbS9pbWFnZS90/aHVtYi9QdXJwbGUx/MjMvdjQvYmQvNWYv/YzQvYmQ1ZmM0NmUt/MzRlYy01NjUzLTNm/OTQtNjYwNjg2NTRj/MTc2L3NvdXJjZS8x/MjgweDEyODBiYi5q/cGc"
+                    alt="Candy Rush Saga"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Candy Rush Saga</h2>
+          </div>
+          <div class="all">
+            <div class="container noselect">
+              <div class="canvas">
+                <div class="tracker tr-1"></div>
+                <div class="tracker tr-2"></div>
+                <div class="tracker tr-3"></div>
+                <div class="tracker tr-4"></div>
+                <div class="tracker tr-5"></div>
+                <div class="tracker tr-6"></div>
+                <div class="tracker tr-7"></div>
+                <div class="tracker tr-8"></div>
+                <div class="tracker tr-9"></div>
+                <div class="tracker tr-10"></div>
+                <div class="tracker tr-11"></div>
+                <div class="tracker tr-12"></div>
+                <div class="tracker tr-13"></div>
+                <div class="tracker tr-14"></div>
+                <div class="tracker tr-15"></div>
+                <div class="tracker tr-16"></div>
+                <div class="tracker tr-17"></div>
+                <div class="tracker tr-18"></div>
+                <div class="tracker tr-19"></div>
+                <div class="tracker tr-20"></div>
+                <div class="tracker tr-21"></div>
+                <div class="tracker tr-22"></div>
+                <div class="tracker tr-23"></div>
+                <div class="tracker tr-24"></div>
+                <div class="tracker tr-25"></div>
+                <div id="card">
+                  <img
+                    src="https://imgs.search.brave.com/DPJ-oIHX2JwjIjoHVyW9doi52C5Hj95aGIcx9rXEl5k/rs:fit:1024:1024:1/g:ce/aHR0cDovL2E1Lm16/c3RhdGljLmNvbS91/cy9yMzAvUHVycGxl/Ni92NC84YS85Yi80/Yi84YTliNGI4My0w/ZmFmLTE1NzUtM2Q0/NC1mMjJjNWQ4Njhk/ZmUvbXpsLmp6b3Bp/YmxwLnBuZw"
+                    alt="Temple Run"
+                  />
+                </div>
+              </div>
+            </div>
+            <h2>Temple Run</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <h1>Links</h1>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/html/gaming.html">Gaming</a></li>
+          <li><a href="/html/manga.html">Manga</a></li>
+        </ul>
+      </div>
+      <div class="footer-container">
+        <h1>Services</h1>
+        <ul>
+          <li>Privacy Policy</li>
+          <li>Terms</li>
+          <li>Copyright</li>
+        </ul>
+      </div>
+      <div class="footer-container">
+        <h1>Information</h1>
+        <ul>
+          <li>About us</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

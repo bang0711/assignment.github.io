@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/global.css" />
+    <link rel="stylesheet" href="../style/contact.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <a href="/" class="logo-container">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              d="M11.25 4.533A9.707 9.707 0 006 3a9.735 9.735 0 00-3.25.555.75.75 0 00-.5.707v14.25a.75.75 0 001 .707A8.237 8.237 0 016 18.75c1.995 0 3.823.707 5.25 1.886V4.533zM12.75 20.636A8.214 8.214 0 0118 18.75c.966 0 1.89.166 2.75.47a.75.75 0 001-.708V4.262a.75.75 0 00-.5-.707A9.735 9.735 0 0018 3a9.707 9.707 0 00-5.25 1.533v16.103z"
+            />
+          </svg>
+        </a>
+        <div class="pc-nav">
+          <ul>
+            <li class="pc-nav-item"><a href="/">Home</a></li>
+            <li class="pc-nav-item"><a href="/html/gaming.html">Gaming</a></li>
+            <li class="pc-nav-item"><a href="#">Manga</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="mobile-nav">
+        <input type="checkbox" id="navi-toggle" class="checkbox" />
+        <label for="navi-toggle" class="button">
+          <span class="icon"></span>
+        </label>
+        <div class="background"></div>
+        <nav class="nav">
+          <ul class="list">
+            <li class="item"><a href="/" class="link"> Home </a></li>
+            <li class="item">
+              <a href="/html/gaming.html" class="link"> Gaming </a>
+            </li>
+            <li class="item"><a href="#" class="link"> Manga </a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <span class="text">Contact Us</span>
+      <div class="form-container">
+        <form action="#" method="post">
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              gap: 5px;
+            "
+          >
+            <h2>Contact Purpose</h2>
+            <div class="box">
+              <select>
+                <option>I want to sell book</option>
+                <option>I want to buy book</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-container icon1">
+            <input id="firstname" class="input" type="text" placeholder=" " />
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">First name</label>
+          </div>
+
+          <div class="input-container icon1">
+            <input id="firstname" class="input" type="email" placeholder=" " />
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">Email</label>
+          </div>
+
+          <div class="input-container icon1">
+            <input id="firstname" class="input" type="number" placeholder=" " />
+            <div class="cut"></div>
+            <label for="firstname" class="placeholder">Phone</label>
+          </div>
+          <h2>How Can We Deliver The Books To You</h2>
+          <fieldset>
+            <label>
+              <input class="cb cb1" type="checkbox" name="social" />
+              <i></i>
+              <span>By Phone</span>
+            </label>
+            <label>
+              <input class="cb cb2" type="checkbox" name="work" />
+              <i></i>
+              <span>By Email</span>
+            </label>
+          </fieldset>
+          <div class="card">
+            <h2>Receive Weekly Newsletter</h2>
+            <ul>
+              <li>
+                <input type="radio" name="name" id="one" checked />
+                <label for="one">Yes</label>
+                <div class="check"></div>
+              </li>
+
+              <li>
+                <input type="radio" name="name" id="two" />
+                <label for="two">No</label>
+                <div class="check"></div>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
