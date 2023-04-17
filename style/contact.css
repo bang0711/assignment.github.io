@@ -53,7 +53,7 @@ form {
   top: -20px;
   transform: translateY(0);
   transition: transform 200ms;
-  width: 76px;
+  width: 80px;
 }
 
 .input:focus ~ .cut,
@@ -84,7 +84,6 @@ form {
 
 .input:focus ~ .placeholder {
   color: black;
-  font-weight: 600;
 }
 .checkbox-container {
   display: flex;
