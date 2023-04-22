@@ -126,7 +126,7 @@ header {
 
 .list {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
@@ -266,12 +266,6 @@ footer ul li a {
     z-index: 50;
     width: 100%;
   }
-  /* .nav-container {
-    display: none;
-  }
-  .logo-container {
-    display: none;
-  } */
   header .nav-container {
     display: flex;
     align-items: center;
