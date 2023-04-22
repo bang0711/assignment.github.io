@@ -87,7 +87,7 @@ header {
   width: 5rem;
   border-radius: 50%;
   position: fixed;
-  top: 5vh;
+  top: 1rem;
   right: 5vw;
   z-index: 2000;
   box-shadow: 0 1rem 3rem black;
@@ -100,7 +100,7 @@ header {
   width: 4rem;
   border-radius: 50%;
   position: fixed;
-  top: 5.5vh;
+  top: 1rem;
   right: 5.5vw;
   background-image: radial-gradient(gray, white);
   z-index: 1000;
@@ -131,7 +131,7 @@ header {
 
 .item {
   margin: 1rem;
-  font-size: 36px;
+  font-size: 20px;
 }
 
 .link:link,
@@ -259,12 +259,23 @@ footer ul li a {
     position: sticky;
     top: 0;
     z-index: 50;
+    width: 100%;
   }
-  .nav-container {
+  /* .nav-container {
     display: none;
   }
   .logo-container {
     display: none;
+  } */
+  header .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 50;
   }
   .pc-nav {
     display: none;
